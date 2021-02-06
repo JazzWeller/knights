@@ -24,6 +24,9 @@ p {
 }
 
 .orderdesc1 {
+  border: 3px solid black;
+  border-radius: 25px;
+  padding: 5px 5px 5px 5px;
   font-size: 4vw;
   margin: 90px 30px 15px 30px;
 }
