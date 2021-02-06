@@ -1,0 +1,179 @@
+body {
+  z-index: -1;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  background-color: #FFFFFF;
+}
+
+p {
+  font-size: 2vw;
+  font-family: "Cinzel", sans-serif;
+}
+
+a {
+  color: black;
+}
+
+.orderdesc {
+  font-size: 1.5vw;
+  margin: 30px 30px 15px 30px;
+}
+
+.orderdesc1 {
+  font-size: 1.5vw;
+  margin: 90px 30px 15px 30px;
+}
+
+.motto {
+  position: fixed;
+  border-radius: 15px;
+  z-index: 2;
+  width: 20%;
+  left: 40%;
+  top: 0;
+  display: block;
+  margin: 0;
+  padding: 0;
+}
+
+.motto2 {
+  position: fixed;
+  border-radius: 15px;
+  z-index: 2;
+  width: 20%;
+  left: 40%;
+  top: 0;
+  display: block;
+  margin: 0;
+  padding: 0;
+  border: 3px solid black;
+}
+
+.row-one {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 80px 60px 0px 30px;
+  padding: 15px 15px 0px 15px;
+}
+
+.row-two {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0px 60px 0px 30px;
+  padding: 0px 15px 15px 15px;
+}
+
+.order {
+  margin: 10px 10px 0px 0px;
+  padding: 15px 15px 15px 15px;
+  float: left;
+}
+
+.ordericon {
+  width: 125%;
+}
+
+h2 {
+  font-size: 5vw;
+  text-align: center;
+  width: 125%;
+  font-family: "Cinzel", sans-serif;
+}
+
+.button {
+  background-color: none;
+  padding: 0 0 0 0;
+}
+
+ol {
+  margin: 30px 60px 30px 60px;
+}
+
+.navbar {
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 100%;
+  text-align: right;
+}
+
+.nav-link {
+  padding: 0px 55px 0px 55px;
+  font-family: "Kaushan", sans-serif;
+  font-variant: small-caps;
+  color: white;
+}
+
+.bg-dark {
+  background-color: #101010 !important;
+}
+
+.footer {
+  background-color: #333333!important;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 40px;
+  padding-top: 10px;
+  padding-right: 30px;
+  margin-top: 30px;
+  text-align: right;
+}
+
+.footer-text {
+  color: white;
+  text-align: right;
+}
+
+@media only screen and (min-width: 768px) {
+  .order {
+    margin: 10px 30px 0px 0px;
+  }
+  .ordericon {
+    width: 125%;
+  }
+  h2 {
+    font-size: 2vw;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .row-one {
+    margin: 100px 40px 0px 40px;
+  }
+  .row-two {
+    margin: 0px 40px 0px 40px;
+  }
+  .order {
+    margin: auto;
+  }
+  .ordericon {
+    width: 150px;
+    height: 150px;
+  }
+  h2 {
+    font-size: 1.4vw;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  .row-one {
+    margin: 150px 60px 0px 40px;
+    padding: 15px 15px 15px 15px;
+    justify-content: space-between;
+  }
+  .row-two {
+    margin: 0px 60px 0px 40px;
+    padding: 15px 15px 15px 15px;
+    justify-content: space-between;
+  }
+ .ordericon {
+    width: 175px;
+    height: 175px;
+  }
+}
