@@ -290,7 +290,7 @@ p {
 
 @media only screen and (min-width: 1650px) {
   .row-one {
-    margin: 250px 60px 0px 40px;
+    margin: 150px 60px 0px 40px;
     padding: 15px 15px 15px 15px;
     justify-content: space-between;
   }
@@ -315,7 +315,7 @@ p {
 
 @media only screen and (min-width: 2000px) {
   .row-one {
-    margin: 250px 160px 0px 140px;
+    margin: 200px 160px 0px 140px;
     padding: 15px 15px 15px 15px;
     justify-content: space-between;
   }
