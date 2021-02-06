@@ -288,7 +288,32 @@ p {
   }
 }
 
-@media only screen and (min-width: 2200px) {
+@media only screen and (min-width: 1650px) {
+  .row-one {
+    margin: 250px 60px 0px 40px;
+    padding: 15px 15px 15px 15px;
+    justify-content: space-between;
+  }
+  .row-two {
+    margin: 0px 60px 0px 40px;
+    padding: 15px 15px 15px 15px;
+    justify-content: space-between;
+  }
+ .ordericon {
+    width: 250px;
+    height: 250px;
+  }
+  h2 {
+    font-size: 1.4vw;
+    width: 100%;
+  }
+  .orderdesc1 {
+    font-size: 1.5vw;
+    margin: 120px 30px 15px 30px;
+  }
+}
+
+@media only screen and (min-width: 2000px) {
   .row-one {
     margin: 250px 160px 0px 140px;
     padding: 15px 15px 15px 15px;
@@ -306,5 +331,8 @@ p {
   h2 {
     font-size: 1.4vw;
     width: 100%;
+  }
+  .orderdesc1 {
+    margin: 160px 30px 15px 30px;
   }
 }
